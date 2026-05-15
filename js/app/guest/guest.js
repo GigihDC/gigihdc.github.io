@@ -256,7 +256,7 @@ export const guest = (() => {
         const data = new URLSearchParams({
             action: 'TEMPLATE',
             text: 'The Wedding of Rizki and Galuh',
-            dates: `${formatDate('2026-06-04 10:00')}/${formatDate('2026-06-04 14:00')}`,
+            dates: `${formatDate('2026-06-04 10:00')}`, // /${formatDate('2026-06-04 21:00')}`
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
             location: 'Jl. Pahlawan No. 229, Purwojati, Kec. Wuluhan, Kab. Jember, Jawa Timur 68162',
             ctz: config.get('tz'),
