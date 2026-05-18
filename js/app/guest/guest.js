@@ -255,10 +255,10 @@ export const guest = (() => {
         const url = new URL('https://calendar.google.com/calendar/render');
         const data = new URLSearchParams({
             action: 'TEMPLATE',
-            text: 'The Wedding of Rizki and Galuh',
-            dates: `${formatDate('2026-06-04 10:00')}`, // /${formatDate('2026-06-04 21:00')}`
+            text: 'The Wedding Reception of Rizki and Galuh',
+            dates: `${formatDate('2026-06-14 11:00')}/${formatDate('2026-06-14 13:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
-            location: 'Jl. Pahlawan No. 229, Purwojati, Kec. Wuluhan, Kab. Jember, Jawa Timur 68162',
+            location: 'Gedung Koperasi Prastiwi https://maps.app.goo.gl/Vq4H3evUcHhQQSZZ6?g_st=awb',
             ctz: config.get('tz'),
         });
 

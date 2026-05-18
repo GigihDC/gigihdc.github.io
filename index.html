@@ -93,22 +93,9 @@
 <!-- It's recommended to use 'data-src' in the <img> tag -->
 
 <!-- <html lang="id" data-bs-theme="auto"> ['auto', 'dark', 'light'] -->
-<script>
-    const body = document.body;
-    const currentTime = new Date();
-    const oldTime = new Date(body.dataset.time);
-    const expiredTime = new Date(oldTime);
-
-    expiredTime.setDate(expiredTime.getDate() + 1);
-    const newTime = "2026-06-14 11:00:00";
-
-    if (currentTime > expiredTime) {
-        body.dataset.time = newTime;
-    }
-</script>
 
 <body data-key="c70b8be5f79eae32f5ede5f97390b442d243a697cb302d6208" data-url="https://undangan-api-liard-pi.vercel.app/"
-      data-audio="./assets/music/the_way_you_look_at_me.mp3" data-confetti="true" data-time="2026-06-04 10:00:00">
+      data-audio="./assets/music/the_way_you_look_at_me.mp3" data-confetti="true" data-time="2026-06-14 11:00:00">
 
 <!-- Root Invitation -->
 <div class="row m-0 p-0 opacity-0" id="root">
@@ -136,7 +123,7 @@
 
             <div class="text-center p-4 bg-overlay-auto rounded-5">
                 <h2 class="font-esthetic mb-4" style="font-size: 2rem;">Rizki &amp; Galuh</h2>
-                <p class="m-0" style="font-size: 1rem;">Kamis, 04 Juni 2026</p>
+                <p class="m-0" style="font-size: 1rem;">Minggu, 14 Juni 2026</p>
             </div>
         </div>
     </div>
@@ -160,7 +147,7 @@
                          class="img-center-crop rounded-circle border border-3 border-light shadow my-4 mx-auto cursor-pointer">
 
                     <h2 class="font-esthetic my-4" style="font-size: 2.25rem;">Rizki &amp; Galuh</h2>
-                    <p class="my-2" style="font-size: 1.25rem;">Kamis, 04 Juni 2026</p>
+                    <p class="my-2" style="font-size: 1.1rem;">Minggu, 14 Juni 2026</p>
 
                     <button class="btn btn-outline-auto btn-sm shadow rounded-pill px-3 py-1"
                             style="font-size: 0.825rem;">
@@ -581,7 +568,7 @@
                     <div class="bg-theme-auto rounded-4 shadow p-3 mx-4 mt-4 text-start"
                          data-aos="fade-up" data-aos-duration="2500">
                         <i class="fa-solid fa-qrcode fa-lg"></i>
-                        <p class="d-inline">Dompet Digital</p>
+                        <p class="d-inline">E-Wallet</p>
 
                         <div class="d-flex justify-content-between align-items-center mt-2">
                             <p class="m-0 p-0" style="font-size: 0.95rem;"><i
